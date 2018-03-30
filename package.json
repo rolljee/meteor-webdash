@@ -1,0 +1,17 @@
+{
+  "name": "webdashexample",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.36",
+    "meteor-node-stubs": "^0.3.2"
+  },
+  "devDependencies": {
+    "webdash-npm-scripts": "^1.2.0",
+    "webdash-package-json": "^1.2.0",
+    "webdash-performance-budget": "^1.2.0",
+    "webdash-pwa-manifest": "^1.2.0"
+  }
+}
