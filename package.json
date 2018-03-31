@@ -2,11 +2,20 @@
   "name": "webdashexample",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "dev": "meteor --inspect",
+    "foo": "bar",
+    "bar": "foo",
+    "debug": "meteor --inspect --settings settings.json",
+    "analyse": "meteor --production --settings settings.json",
+    "deploy": "mup deploy --config=.deploy/mup.js --settings=settings.json",
+    "logs": "mup logs --config=.deploy/mup.js -f --timestamps",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.36",
-    "meteor-node-stubs": "^0.3.2"
+    "meteor-node-stubs": "^0.3.2",
+    "webdash": "^1.2.0"
   },
   "devDependencies": {
     "webdash-npm-scripts": "^1.2.0",
